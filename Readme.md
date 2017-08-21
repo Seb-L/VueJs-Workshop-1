@@ -12,5 +12,11 @@ The final result is composed of a paginated list of beers fetched with an HTTP r
 
 **Specs:**
 
-- HTTP Request to https://api.punkapi.com/v2/beers (GET)
-- Create a component that contain a list of "BeerItem" components
+- HTTP Request to https://api.punkapi.com/v2/beers (GET) in the home component
+- Create a BeerList component that render a list of beers with the data from "home" component
+
+**Hints**
+- v-for
+- vue-axios
+- "mounted" hook
+- dynamic attributes
