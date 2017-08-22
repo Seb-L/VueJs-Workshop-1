@@ -20,7 +20,7 @@ The final result is composed of a paginated list of beers fetched with an HTTP r
 - v-for: https://vuejs.org/v2/guide/list.html#v-for
 - vue-axios: https://www.npmjs.com/package/vue-axios (already installed)
 - "mounted" hook
-- dynamic attributes: https://vuejs.org/v2/guide/components.html#Props
+- Dynamic props: https://vuejs.org/v2/guide/components.html#Props
 
 ## Step 2: Details panel and passing data between components
 
@@ -31,8 +31,9 @@ The final result is composed of a paginated list of beers fetched with an HTTP r
 
 **Hints:**
 
-- Custom event "$emit input": https://vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events
+- Custom event "$emit input" and v-model: https://vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events
 - Class Binding / Object Syntax: https://vuejs.org/v2/guide/class-and-style.html#Object-Syntax
+- Dynamic props: https://vuejs.org/v2/guide/components.html#Props
 
 ## Step 3: Filter by name and beer list paginate
 
