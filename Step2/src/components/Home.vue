@@ -3,13 +3,17 @@
     <div class="row card-group">
 
       <!-- BEER LIST -->
-      <BeerList :beers="beers" v-model="selectedBeer"></BeerList>
+      <BeerList :beers="beers"></BeerList>
+
+      <!-- SELECTED BEER DETAILS -->
+      <BeerDetails></BeerDetails>
     </div>
   </div>
 </template>
 
 <script>
 import BeerList from './BeerList'
+import BeerDetails from './BeerDetails.vue'
 
 export default {
   name: 'home',
@@ -25,7 +29,8 @@ export default {
       })
   },
   components: {
-    BeerList
+    BeerList,
+    BeerDetails
   }
 }
 </script>

@@ -1,12 +1,16 @@
 <template>
   <div class="container">
     <div class="row card-group">
-
+      <!-- BEER LIST -->
+      <BeerList></BeerList>
     </div>
   </div>
 </template>
 
 <script>
+import BeerList from './BeerList'
+import BeerDetails from './BeerDetails.vue'
+
 export default {
   name: 'home',
   data () {
@@ -16,6 +20,10 @@ export default {
   },
   mounted () {
 
+  },
+  components: {
+    BeerList,
+    BeerDetails
   }
 }
 </script>

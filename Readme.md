@@ -45,3 +45,9 @@ The final result is composed of a paginated list of beers fetched with an HTTP r
 **Hints:**
 
 - Computed properties
+
+## Resources
+
+- Docs and guides: https://vuejs.org/v2/guide/
+- Official examples: https://vuejs.org/v2/examples/index.html
+- VueJs CheatSheet: https://vuejs-tips.github.io/cheatsheet/
