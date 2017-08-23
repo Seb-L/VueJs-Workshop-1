@@ -8,6 +8,26 @@ Build your first VueJs App!
 
 The final result is composed of a paginated list of beers fetched with an HTTP request with a filter input, and a selected beer details area.
 
+## Install project sources
+
+### 1. With Npm and node
+
+If you already have node and npm installed, open a terminal in one of the "step" folder then type:
+
+```bash
+npm install && npm run dev
+```
+
+or with yarn
+
+```bash
+yarn install && yarn run dev
+```
+
+### 2. With Docker
+
+If you don't have node and npm or you don't want to update your local node version, use docker
+
 ## Step 1: HTTP Request and list rendering
 
 **Specs:**
