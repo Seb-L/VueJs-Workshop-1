@@ -30,7 +30,24 @@ yarn install && yarn run dev
 
 ### 2. With Docker
 
-If you don't have node and npm or you don't want to update your local node version, use docker
+If you don't have node and npm or you don't want to update your local node version, use docker:
+
+```bash
+# Create your docker image based on your local source code
+$ docker build -t coconut .
+[...]
+
+# run a container based on the coconut docker image
+$ docker run -d --restart always -p 8080:8080 coconut
+8f3fe2e82a739033f2e5c67a7774b930c73f436e906d5a74c8417568f15d1072
+
+# test it
+$ curl http://localhost:8080
+
+# stop the container
+# get the id return by the docker run command
+$ docker stop 8f3fe2e82a739033f2e5c67a7774b930c73f436e906d5a74c8417568f15d1072
+```
 
 ## Step 1: HTTP Request and list rendering
 
@@ -79,5 +96,7 @@ If you don't have node and npm or you don't want to update your local node versi
 - Docs and guides: https://vuejs.org/v2/guide/
 - Official examples: https://vuejs.org/v2/examples/index.html
 - VueJs CheatSheet: https://vuejs-tips.github.io/cheatsheet/
+- VueJs Chrome DevTools: https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en
+- VueJs Firefox DevTools: https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/
 
 
