@@ -70,12 +70,14 @@ If you don't have node and npm or you don't want to update your local node versi
 
 - Computed properties
 
+## Bonus: Vuex
+
+- Using vuex to store and access the data instead of using dynamic properties
+
 ## Resources
 
 - Docs and guides: https://vuejs.org/v2/guide/
 - Official examples: https://vuejs.org/v2/examples/index.html
 - VueJs CheatSheet: https://vuejs-tips.github.io/cheatsheet/
 
-## Bonus: Vuex
 
-- Using vuex to store and access the data instead of using dynamic properties
