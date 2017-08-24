@@ -1,6 +1,13 @@
 FROM kkarczmarczyk/node-yarn:7.6
 
-RUN yarn
-RUN npm run dev
+RUN mkdir -p /vuejs && mkdir -p /vuejs/src
+ADD ./ /vuejs
+RUN cd /vuejs && yarn
 
-EXPOSE 80
+ENV NODE_ENV development
+
+EXPOSE 8080
+
+WORKDIR /vuejs
+
+CMD npm run dev
