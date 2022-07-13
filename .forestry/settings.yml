@@ -12,7 +12,6 @@ sections:
 - type: document
   path: pricing
   label: Pricing
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
