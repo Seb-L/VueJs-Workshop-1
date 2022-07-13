@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: toto
+  label: toto
+  match: "**/*"
 - type: directory
   path: activities
   label: activités
